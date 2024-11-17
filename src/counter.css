@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #D4BEE4; /* Light background */
+  }
+  
+  /* Centered Container Box */
+  .container {
+    width: 35vw;
+    height: 25vw;
+    padding: 30px;
+    background-color: #EEEEEE;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .heading{
+    color: #9B7EBD;
+  }
+
+
+  
+  /* Heading Style */
+ .H1 {
+    font-size: 4vw;
+    margin-bottom: 2%;
+    color: #3B1E54;
+  }
+  
+  /* Button Styling */
+
+  .Buttons{
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 24px;
+    margin: 5px;
+    background-color: #D4BEE4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #9B7EBD;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 500px) {
+    .container {
+      width: 90%;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .container h1 {
+      font-size: 36px;
+    }
+  
+    button {
+      font-size: 20px;
+      padding: 8px 16px;
+    }
+  }
+  
